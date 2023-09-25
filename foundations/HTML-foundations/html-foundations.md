@@ -24,10 +24,8 @@ Almost all elements on an HTML page are just pieces of content wrapped in openin
 
 A full paragraph element looks like this:
 
-~~```html
-
-    <p> some text content </p>
-
+```html
+<p> some text content </p>
 ```
 
 > You can think of elements as conainers for content.
