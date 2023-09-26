@@ -30,6 +30,13 @@ A full paragraph element looks like this:
 
 > You can think of elements as conainers for content.
 
-HTML has a ***vast list of predefined tags*** 
+HTML has a ***vast list of predefined tags*** that you can use to create all kind of different elements.
 
-esto es nuevo
+Using the correct tag can have a gig impact on two aspects of yor sites:
+- How they are ranked in search engines.
+- And how accessible they are to users who rely on assistive technologies:
+    - like screen readers, to use the internet.
+
+> Using the correct elements for content is call **SEMANTIC HTML**.
+
+ 
