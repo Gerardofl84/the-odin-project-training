@@ -39,4 +39,69 @@ Using the correct tag can have a gig impact on two aspects of yor sites:
 
 > Using the correct elements for content is call **SEMANTIC HTML**.
 
- 
+## HTML Boilerplate
+
+All **HTML** documents hve the same basic structure or boilerplate that needs to be in place before anything useful can be done. 
+
+- DOCTYPE: 
+    - Every HTML page starts with a doctype declaration.
+    - The doctype's purpose is to tell the browser what version of html is should use to render the document
+    ```html
+    <!DOCTYPE html>
+    ```
+
+- HTML element:
+    - This is what's known as the **ROOT** element of the document.
+    - Meaning that every other element in the document will be a descendant of it.
+    ```html
+    <!DOCTYPE html>
+
+    <html lang="en">
+    </html>
+    ```
+
+- HEAD element:
+    - Is where we put important **meta-information** ***about*** our webpage.
+
+- CHARSET meta element:
+    - Setting the encoding is very important because it ensuere that the webpage will deisplay special symobls and characters from different languages correctly in the browser.
+
+- TITLE element:
+    - The title element is used to give webpages a **human-readable** title which is displayed in our webpage's browser tab.
+
+    ```html
+    <!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>My first web page</title>
+        </head>
+    </html>
+    ```
+
+- BODY element:
+    - This is where all the content will be displayed to users will go.
+        - text
+        - images
+        - lists
+        - links
+        - ....
+    
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <title>My first web page</title>
+        </head>
+
+        <body>
+        </body>
+
+    </html>
+    ```
+
+    [boilerpalate index.html](/TOP-Training/foundations/HTML-foundations/html-boilerplate/index.html)
+
