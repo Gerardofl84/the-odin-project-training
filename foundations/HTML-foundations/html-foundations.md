@@ -28,24 +28,24 @@ A full paragraph element looks like this:
 <p> some text content </p>
 ```
 
-> You can think of elements as conainers for content.
+> You can think of elements as containers for content.
 
-HTML has a ***vast list of predefined tags*** that you can use to create all kind of different elements.
+HTML has a ***vast list of predefined tags*** that you can use to create all kinds of different elements.
 
-Using the correct tag can have a gig impact on two aspects of yor sites:
+Using the correct tag can have a big impact on two aspects of your sites:
 - How they are ranked in search engines.
 - And how accessible they are to users who rely on assistive technologies:
     - like screen readers, to use the internet.
 
-> Using the correct elements for content is call **SEMANTIC HTML**.
+> Using the correct elements for content is called **SEMANTIC HTML**.
 
 ## HTML Boilerplate
 
-All **HTML** documents hve the same basic structure or boilerplate that needs to be in place before anything useful can be done. 
+All **HTML** documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. 
 
 - **DOCTYPE:**
     - Every HTML page starts with a doctype declaration.
-    - The doctype's purpose is to tell the browser what version of html is should use to render the document
+    - The doctype's purpose is to tell the browser what version of HTML is should use to render the document
     ```html
     <!DOCTYPE html>
     ```
@@ -64,7 +64,7 @@ All **HTML** documents hve the same basic structure or boilerplate that needs to
     - Is where we put important **meta-information** ***about*** our webpage.
 
 - **CHARSET meta element:**
-    - Setting the encoding is very important because it ensuere that the webpage will deisplay special symobls and characters from different languages correctly in the browser.
+    - Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
 - **TITLE element:**
     - The title element is used to give webpages a **human-readable** title which is displayed in our webpage's browser tab.
@@ -81,7 +81,7 @@ All **HTML** documents hve the same basic structure or boilerplate that needs to
     ```
 
 - **BODY element:**
-    - This is where all the content will be displayed to users will go.
+    - This is where all the content will be displayed to users.
         - text
         - images
         - lists
@@ -107,7 +107,7 @@ All **HTML** documents hve the same basic structure or boilerplate that needs to
 
 ## Working with text
 
-Most content on the web is ***text-based***, so you will find yourself needing o work with **HTML** text elements quite a bit.
+Most content on the web is ***text-based***, so you will find yourself needing to work with **HTML** text elements quite a bit.
 
 - **PARAGRAPHS elements:**
     - If we want to create paragraphs in HTML, we need to use the paragraph element:
@@ -118,7 +118,7 @@ Most content on the web is ***text-based***, so you will find yourself needing o
     ```
 
 - **HEADINGS elements:**
-    - There are 6 different levels of headings startin from `<h1>` to `<h6>`.
+    - There are 6 different levels of headings starting from `<h1>` to `<h6>`.
     - The number within a heading tag represents the heading's level.
     - The largest and most important heading is `<h1>`, while `<h6>` is the tiniest heading at the lowest level.
     ```html
@@ -138,7 +138,7 @@ Most content on the web is ***text-based***, so you will find yourself needing o
     - It also semantically marks text as important.
     - This affects tools like:
         - **screen readers** that users with visual impairments will rely on to use your website.
-        - The tone of voice on some **screen readers** will change to communicate the importance ot the text within a `<strong>` tag.
+        - The tone of voice on some **screen readers** will change to communicate the importance of the text within a `<strong>` tag.
     ```html
     <body>
         <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit.</p>
@@ -155,7 +155,7 @@ Most content on the web is ***text-based***, so you will find yourself needing o
     ```
 
 - **NESTING AND INDENTATION**
-    - When we nest elements within other elements, we create a parent and child relationship between them.
+    - When we nest elements within other elements, we create a parent-and-child relationship between them.
     ```html
     <body> <!-- this is the parent element -->
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <!-- child element -->
@@ -163,7 +163,7 @@ Most content on the web is ***text-based***, so you will find yourself needing o
         <!-- the two paragraphs in this example are siblings -->
     </body>
     ``` 
-    > Just as in human relationship, HTML parent elements can have many children
+    > Just as in human relationships, HTML parent elements can have many children
 
 - **HTML Comments**:
     - Comments are not visible to the browser.
