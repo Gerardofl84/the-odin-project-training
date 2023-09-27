@@ -1,2 +1,0 @@
-# TOP-Training
-Coding education
