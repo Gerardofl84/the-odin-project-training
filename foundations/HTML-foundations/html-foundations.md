@@ -177,7 +177,7 @@ Most content on the web is ***text-based***, so you will find yourself needing t
 List are everywhere on the web.
 
 - **UNORDERED LISTS**
-    - If you want to have a list ot items where the order doesn't matter, then you can use an unordered list.
+    - If you want to have a list of items where the order doesn't matter, then you can use an unordered list.
     - Unordered lists are created using `<ul>` parent element and `<li>` child element.
     ```html
     <body>
@@ -201,4 +201,4 @@ List are everywhere on the web.
         </ol>
     </body>
     ```
-    > Each list item in an ordered list begin with a number instead.
+    > Each list item in an ordered list begins with a number instead.
