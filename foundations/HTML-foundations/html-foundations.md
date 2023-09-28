@@ -173,3 +173,32 @@ Most content on the web is ***text-based***, so you will find yourself needing t
     ```
 
 ## Lists
+
+List are everywhere on the web.
+
+- **UNORDERED LISTS**
+    - If you want to have a list ot items where the order doesn't matter, then you can use an unordered list.
+    - Unordered lists are created using `<ul>` parent element and `<li>` child element.
+    ```html
+    <body>
+        <ul> <!-- this create the unordered list -->
+            <li>cat</li>
+            <li>dog</li> <!--this create the items in the unordered list-->
+            <li>bird</li>
+        </ul>
+    </body>
+    ```
+    > Each list item in an unordered list begins with a bullet point.
+
+- **ORDERED LISTS**
+    - If you instead want to create a list of items where the order does matter, like step-by-step instructions, then you can use an ordered list.
+    ```html
+    <body>
+        <ol> <!-- this create the ordered list -->
+            <li>cat</li>
+            <li>dog</li> <!--this create the items in the ordered list-->
+            <li>bird</li>
+        </ol>
+    </body>
+    ```
+    > Each list item in an ordered list begin with a number instead.
