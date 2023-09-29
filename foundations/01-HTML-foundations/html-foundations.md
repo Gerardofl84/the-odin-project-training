@@ -202,3 +202,31 @@ List are everywhere on the web.
     </body>
     ```
     > Each list item in an ordered list begins with a number instead.
+
+## Links and Images
+
+Links are one of the key features of HTML.
+
+- They allow us to link to other HTML pages on the web.
+
+> In fact, this is why it's called the web.
+
+- **ANCHOR elements:
+    - An anchor element is defined by wrapping the text or another HTML element we want to be a link with `<a>` tag.
+    ```html
+    <!-- href is an attribute. -->
+    <!-- href = hyperlink reference. -->
+    <!-- value = is the destination we want our link to got to. -->
+    <!-- target = where the linked resource will be opened.  -->
+    <a href="value" target="_blank" rel="noopener noreferrer">click me</a>
+    ```
+
+- **IMAGES**
+- To display an image in HTML we the `<img>` element.
+```html
+<!--src = tell the browser where the image file is located.-->
+<!--alt = describe an image -->
+<img src="" alt="" height="" width="">
+```
+
+## Commit Messages
