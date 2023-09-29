@@ -177,7 +177,7 @@ Most content on the web is ***text-based***, so you will find yourself needing t
 List are everywhere on the web.
 
 - **UNORDERED LISTS**
-    - If you want to have a list of items where the order doesn't matter, then you can use an unordered list.
+    - If you want a list of items where the order doesn't matter, then you can use an unordered list.
     - Unordered lists are created using `<ul>` parent element and `<li>` child element.
     ```html
     <body>
@@ -216,13 +216,13 @@ Links are one of the key features of HTML.
     ```html
     <!-- href is an attribute. -->
     <!-- href = hyperlink reference. -->
-    <!-- value = is the destination we want our link to got to. -->
+    <!-- value = is the destination we want our link to go to. -->
     <!-- target = where the linked resource will be opened.  -->
     <a href="value" target="_blank" rel="noopener noreferrer">click me</a>
     ```
 
 - **IMAGES**
-- To display an image in HTML we the `<img>` element.
+- To display an image in HTML use the `<img>` element.
 ```html
 <!--src = tell the browser where the image file is located.-->
 <!--alt = describe an image -->
