@@ -228,5 +228,3 @@ Links are one of the key features of HTML.
 <!--alt = describe an image -->
 <img src="" alt="" height="" width="">
 ```
-
-## Commit Messages
