@@ -1,5 +1,1 @@
-# CSS foundations
-
-## Introduction
-
-
+# Introduction to CSS
